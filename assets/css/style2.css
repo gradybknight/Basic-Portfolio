@@ -7,6 +7,16 @@
 	overflow: auto;
 }
 
+.text_style{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.header_style{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
 #site_header{
 	
 	background-color: white;
@@ -16,7 +26,7 @@
 	border-style: solid;
 	border-bottom-width: 2px;
 	border-color: #777777;
-
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #name{
@@ -49,4 +59,35 @@
 	padding-top: 26px;
 	padding-bottom: 26px;
 }
+
+#main_content{
+	position: relative;
+	left:100px;
+	width: 960px;
+	margin-top: 40px;
+}
+
+#paragraph_wrapper{
+	width: 650px;
+	float: left;
+	margin-right: 40px;
+}
+
+#main_right{
+	width: 270px;
+	float: left;
+}
+
+.main_right_boxes{
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+
+.150px_image{
+	height: 150px;
+	width: 150px;
+
+}
+
 
