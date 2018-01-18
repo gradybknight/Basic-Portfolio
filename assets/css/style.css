@@ -4,10 +4,6 @@
   clear: both;
 }
 
-/** {
-	box-sizing: border-box;
-}*/
-
 #site_header {
 	position: fixed;
 	background-color: white;
@@ -15,7 +11,7 @@
 	margin: 0;
 	top: 0;
 	left: 0;
-	width: 960px;
+	width: 1080px;
 	height: 76px;	
 }
 
@@ -33,9 +29,16 @@
 	float: left;
 }
 
+#right_header {
+	position: absolute;
+	right:0;
+}
+
 #about {
 	position: absolute;
 	right:264px;
+	border-right: 2px;
+	border-color:#777777;
 	top: 0;
 	color: #777777;
 	width: 80px;
@@ -79,6 +82,26 @@
 	width: 960px;
 	margin-top: 40px;
 	float: left;
+}
 
+#paragraph_wrapper {
+	width: 650px;
 
+}
+
+#main_right{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 270px;
+}
+
+h2{
+	color: #4aaaa5;
+	background-color: white;
+	font-size: 36px;
+	text-align: left;
+	vertical-align: center;
+	padding-top: : 20px;
+	padding-bottom: 20px;
 }
