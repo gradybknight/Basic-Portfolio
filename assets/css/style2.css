@@ -1,0 +1,52 @@
+.clearfix::after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: auto;
+}
+
+#site_header{
+	
+	background-color: white;
+	width: 100%;
+	float: left;
+	height: 76px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #777777;
+
+}
+
+#name{
+	position: relative;
+	left:100px;
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 36px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+}
+
+#right_header{
+	position: relative;
+	float: right;
+	width: 30%;
+	padding-right: 30px;
+}
+
+.right_header_boxes{
+	float: left;
+	background-color: white;
+	padding: 0px;
+	width: 33%;
+	font-size: 24px;
+	text-align: center;
+	color: #777777;
+	vertical-align: center;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+
