@@ -69,6 +69,7 @@ p{
 	left:100px;
 	width: 960px;
 	margin-top: 40px;
+	overflow: visible;
 }
 
 h2{
@@ -148,6 +149,7 @@ h3{
 	border-top-style: solid;
 	border-top-width: 10px;
 	border-top-color:#4aaaa5;
+	margin-top: 50px;
 }
 
 #bottom_tag{
@@ -157,20 +159,41 @@ h3{
 .portfolio_picture{
 	width: 200px;
 	height: 200px;
-	
+	padding-left: 50px;
 }
-.porftolio_label{
-	position: absolute;
-	top:60px;
+.portfolio_label{
+	position: relative;
+	top:-50px;
+	left: 50px;
 	height: 30px;
+	width: 200px;
 	background-color: #4aaaa5;
-	columns: white;
+	color: white;
+	text-align: center;
 }
+
+/*.portfolio_label {
+    position:relative;
+    top:-150px;
+    left:20px;
+    border:1px solid black;
+}*/
 
 .portfolio_picture_wrapper{
 	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	overflow: visible;
 }
 
 .picture{
 	float: left;
+}
+
+#kludge{
+	height: 100px;
+}
+
+#message{
+	width: 100%;
 }
