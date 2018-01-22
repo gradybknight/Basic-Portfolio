@@ -7,6 +7,9 @@
 	overflow: auto;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 body {
   background-image: url("/assets/images/white_wall_hash.png");
