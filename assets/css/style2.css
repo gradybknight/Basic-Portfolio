@@ -154,11 +154,11 @@ h3{
 	vertical-align: bottom;
 	margin-top: 20px;
 }
-#portfolio_picture{
+.portfolio_picture{
 	width: 200px;
 	height: 200px;
 }
-#porftolio_label{
+.porftolio_label{
 	position: relative;
 	top:60px;
 	height: 30px;
@@ -166,9 +166,7 @@ h3{
 	columns: white;
 }
 
-#portfolio_picture_wrapper{
-	width: 200px;
-	background-color: blue;
+.portfolio_picture_wrapper{
 	float: left;
 }
 
