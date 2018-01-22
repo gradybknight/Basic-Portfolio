@@ -157,9 +157,10 @@ h3{
 .portfolio_picture{
 	width: 200px;
 	height: 200px;
+	
 }
 .porftolio_label{
-	position: relative;
+	position: absolute;
 	top:60px;
 	height: 30px;
 	background-color: #4aaaa5;
@@ -170,3 +171,6 @@ h3{
 	float: left;
 }
 
+.picture{
+	float: left;
+}
